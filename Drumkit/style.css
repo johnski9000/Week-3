@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+#musiccontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.music {
+    width: 32vw;
+    height: 31.5vh;
+    background-color: red;
+    border: 10px black ridge;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 300%;
+    font-style: italic;
+}
