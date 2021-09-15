@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    border: 0;
+}
+html { 
+    background: url(https://www.wallpapertip.com/wmimgs/3-36090_cool-solid-color-backgrounds.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+#heading{
+height: 25vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+
+}
+
+#pageheading{
+align-self: center;
+font-family: Merriweather;
+font-size: 300%;
+}
+
+
+#letterbox{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#letter {
+    align-self: center;
+    font-size: 600%;
+}
+#bottomdiv {
+    height: 45vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+#box {
+border: 5px black solid;
+width: 200px;
+height: 200px;
+align-self: center;
+}
+#topbox{
+    height: 50px;
+    width: 200px;
+    border-bottom: 2px black solid;
+    font-size: 150%;
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+}
+#eventkey,
+#eventwhich,
+#eventlocation,
+#eventcode{
+    width: 200px;
+    height: 150px;
+    font-size: 450%;
+    text-align: center;
+    padding-top: 20px;
+}
